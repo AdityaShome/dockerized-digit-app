@@ -14,7 +14,7 @@ HTML_FORM = """
     <title>Digit Classifier</title>
 </head>
 <body style="font-family:sans-serif;text-align:center;">
-    <h1>Upload a 28x28 Digit Image</h1>
+    <h1>Upload a Digit Image</h1>
     <form action="/" method="post" enctype="multipart/form-data">
         <input type="file" name="file" accept=".png" required><br><br>
         <input type="submit" value="Predict">
