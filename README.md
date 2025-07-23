@@ -35,12 +35,7 @@ Follow these steps to containerize and run the application using Docker:
 
 Run this command in the project root (where the `Dockerfile` is located):
 
-``
+```bash
 docker build -t digit-ai-app .
-
-docker run -p 5000:5000 digit-ai-app
-
-Then open your browser and go to:
-http://127.0.0.1:5000
 
 
